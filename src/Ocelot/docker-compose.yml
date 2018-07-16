@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  gateway:
+    image: ${DOCKER_REGISTRY}gateway
+    build:
+      context: .
+      dockerfile: Gateway/Dockerfile
+
+  estados.api:
+    image: ${DOCKER_REGISTRY}estadosapi
+    build:
+      context: .
+      dockerfile: Estados.API/Dockerfile
+
+
+  paises.api:
+    image: ${DOCKER_REGISTRY}paisesapi
+    build:
+      context: .
+      dockerfile: Paises.API/Dockerfile
+
