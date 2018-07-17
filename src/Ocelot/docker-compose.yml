@@ -13,10 +13,8 @@ services:
       context: .
       dockerfile: Estados.API/Dockerfile
 
-
   paises.api:
     image: ${DOCKER_REGISTRY}paisesapi
     build:
       context: .
       dockerfile: Paises.API/Dockerfile
-
