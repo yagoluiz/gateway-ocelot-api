@@ -2,9 +2,11 @@
 
 API Gateway em ASP.NET Core utilizando middleware [Ocelot](https://github.com/ThreeMammals/Ocelot).
 
+## Instruções para execução do projeto
+
 **Arquivo - configuration.json**
 
-O arquivo **configuration.json** é responsável pela rota dos serviços. A configuração do **host/port** irá depender do ambiente onde a API Gateway será executada. A configuração do host/porta pode ser feita de 3 formas:
+O arquivo **configuration.json** é responsável pela rota dos serviços. A configuração do **host/port** irá depender do ambiente onde a API Gateway será executada. A configuração do **host/port** pode ser feita de 3 formas:
 
 - Imagem dos serviços junto com a API Gateway (como neste projeto) - **Execução Docker**:
 
@@ -44,6 +46,6 @@ O arquivo **configuration.json** é responsável pela rota dos serviços. A conf
     ]
 }
 ```
- 
- **Executar API**
- - Executar projeto via docker ou via Visual Studio ou Visual Studio Code 
+
+**Executar API**
+- Executar projeto via docker ou via Visual Studio ou Visual Studio Code 
